@@ -1,0 +1,23 @@
+{
+  "name": "rehype-to-text",
+  "version": "1.0.0",
+  "description": "Rehype plugin to extract html inner text.",
+  "main": "index.js",
+  "repository": "git@github.com:pinikeizman/rehype-to-text.git",
+  "types": "index.d.ts",
+  "type": "module",
+  "author": "pinikeizman <pini1089@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hast-util-to-text": "^3.0.0"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "rehype-parse": "^7.0.1",
+    "unified": "^9.2.1"
+  }
+}
